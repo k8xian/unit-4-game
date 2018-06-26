@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play at Your Own Risk</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang|Nixie+One" rel="stylesheet">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+    <h1>Play At Your Own Risk</h1>
+    <div class="statsLeft">    
+            <div id="wins" class="winsnlosses">Wins:</div>
+            <div id="losses" class="winsnlosses">Losses:</div>
+        </div>
+
+    <div id="selectablePlayers">
+        <div id="player1" class="playerBlock" data-char="player1">
+            <div class="playerPic">
+            </div>
+            <div class="playerStats">
+                    <div class="playerName">Spook 1</div>
+                    <div class="hp__stat" id="player1Hp"></div><div class="attack__stat" id="player1Attack"></div>
+            </div>
+            <!-- <div id="player1health" class="healthbar"></div> -->
+        </div>
+
+        <div  id="player2" class="playerBlock" data-char="player2">
+            <div class="playerPic">
+            </div>
+            <div class="playerStats">
+                    <div class="playerName">Spook 2</div>
+                    <div class="hp__stat" id="player2Hp"></div><div class="attack__stat" id="player2Attack"></div>
+            </div>
+            <!-- <div id="player2health" class="healthbar"></div> -->
+        </div>
+
+        <div id="player3" class="playerBlock" data-char="player3">
+            <div class="playerPic">
+            </div>
+            <div class="playerStats">
+                    <div class="playerName">Spook 3</div>
+                    <div class="hp__stat" id="player3Hp"></div><div class="attack__stat" id="player3Attack"></div>
+            </div>
+            <!-- <div id="player3health" class="healthbar"></div> -->
+        </div>
+
+        <div id="player4" class="playerBlock" data-char="player4">
+            <div class="playerPic">
+            </div>
+            <div class="playerStats">
+                    <div class="playerName">Spook 4</div>
+                    <div class="hp__stat" id="player4Hp"></div><div class="attack__stat" id="player4Attack"></div>
+            </div>
+            <!-- <div id="player4health" class="healthbar"></div> -->
+        </div>
+
+    </div>
+    <div id="choosePlayerTitle" class="title">Choose Your Character</div>
+
+    <div id="enimiesAvailable">
+
+    </div>
+    <div id="enimiesTitle" class="title">Enimies Available to Attack</div>
+    
+  
+    <div id="defenderPlayer">
+        <div class="statsRight"><div id="damageReport" class="title"></div></div>
+
+
+    </div>
+
+    <div id="attackButton" class="button">Attack</div>
+    <div id="defenderTitle" class="title">Your Opponent</div>
+
+    
+
+    
+    
+
+</body>
+</html>
