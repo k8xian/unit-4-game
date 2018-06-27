@@ -149,3 +149,30 @@ h1 {
     height: 15px;
     background-color: green;
 }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0,0,0,.9);
+    height: 72px;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #18ffff;;
+    text-align: center;
+}
+
+#copyright {
+    line-height: 68px;
+}
+#portfolio-link {
+    float: left;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 44px;
+    left: 3%;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.85);
+    transition-property: color;
+    transition-duration: 1s;
+    z-index: 5000;
+}
