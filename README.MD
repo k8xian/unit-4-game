@@ -1,10 +1,12 @@
-Play At Your Own Risk
+# Play At Your Own Risk
 
 By Kate Christian
 k8xian.github.io
 for Northwestern University's Full Stack Flex Coding Bootcamp
 
-##gameplay
+**Deployment:** [k8xian.github.io/unit-4-game](https://k8xian.github.io/unit-4-game)
+
+## gameplay
 
 * This is a basic RPG game
 
@@ -14,7 +16,7 @@ for Northwestern University's Full Stack Flex Coding Bootcamp
 
 * Each time you attack, your attack power increases
 
-##development
+## development
 
 * Each charater had to be assigned hp, attack and counterAttack values, these values were stored in objects.
 
@@ -24,9 +26,9 @@ for Northwestern University's Full Stack Flex Coding Bootcamp
 
 * A function had to be written for subtracting the newly formed attack power from the HP.
 
-##other info
+## other info
 
 * I am the sole maintainer of this code
 
-##Graphics by me
+## Graphics by me
 * fonts from Google Fonts
